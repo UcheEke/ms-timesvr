@@ -1,0 +1,27 @@
+{
+  "name": "ms-timesvr",
+  "version": "1.0.0",
+  "description": "FreeCodeCamp Backend Project 1 - A timestamp microservice ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UcheEke/ms-timesvr.git"
+  },
+  "keywords": [
+    "FreeCodeCamp",
+    "time",
+    "microservice"
+  ],
+  "author": "Uche Eke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UcheEke/ms-timesvr/issues"
+  },
+  "homepage": "https://github.com/UcheEke/ms-timesvr#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
