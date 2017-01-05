@@ -31,6 +31,10 @@ let formatOutput = function(strTime){
     return output;
 };
 
+app.get('/', function(req, res){
+    res.send('Time server Microservice');
+});
+
 app.get('/hello', function(req, res){
     res.send('Welcome to my first Heroku deployment!');
 });
