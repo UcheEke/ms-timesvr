@@ -5,7 +5,6 @@
 
 let express = require('express');
 let app = express();
-let port = process.argv[2];
 
 let errDateFormat = function(){
     let output = {};
@@ -47,4 +46,5 @@ app.get('/:time', function(req, res){
     res.send(output);
 });
 
-app.listen(port);
+// Listen for incoming requests and serve them.
+app.listen(process.env.PORT || 3000);
