@@ -31,10 +31,15 @@ let formatOutput = function(strTime){
     return output;
 };
 
+app.get('/hello', function(req, res){
+    res.send('Welcome to my first Heroku deployment!');
+});
+
 app.get('/:time', function(req, res){
     let time = req.params.time; // string
     console.log("Time passed into request:", time);
     let output = formatOutput(time);
     res.send(output);
 });
+
 app.listen(8080);
